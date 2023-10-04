@@ -1,6 +1,7 @@
 <html>
-<head>
-    <title>Tampil Data Matakuliah</title>
+
+<head
+        <title>Tampil Data Matakuliah</title>
 </head>
 
 
@@ -21,25 +22,31 @@
                 <th>Kode MTK</th>
                 <th>:</th>
                 <td>
-                    <?=$kode;?>
+                    <?= $kode; ?>
                 </td>
             </tr>
             <tr>
                 <td>Nama MTK</td>
                 <td>:</td>
                 <td>
-                    <?=$nama;?>
+                    <?= $nama; ?>
                 </td>
             </tr>
             <tr>
-                    <td>SKS</td>
-                    <td>:</td>
-                    <td>
-                        <?$sks; ?>
-                    </td>
+                 <td>SKS</td>
+                 <td>:</td>
+                 <td>
+                     <?= $sks; ?>
+                 </td>
             </tr>
             <tr>
-                    <td colspan="3"align="center">
-                        <a href="<?= base_url('matakuliah');
-?>">kembali</a>
-        </td>
+                 <td colspan="3" align="center">
+                     <a href="<?= base_url('matakuliah'); 
+?>">Kembali</a>
+                </td>
+             </tr>
+         </table>
+    </center>
+</body>
+
+</html
